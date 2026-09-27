@@ -1,0 +1,33 @@
+# ============================================
+# VS Code
+# ============================================
+# Ignore everything in .vscode except shareable project config
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History extension
+.history/
+
+# Built VS Code extensions
+*.vsix
+
+# Workspace files (uncomment if you don't want to share them)
+# *.code-workspace
+
+# ============================================
+# Secrets & environment
+# ============================================
+.env
+.env.*
+!.env.example
+
+# ============================================
+# OS junk
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
